@@ -736,6 +736,7 @@ body footer .container .site-footer small {
   margin: 0 auto;
   text-align: justify;
   margin-bottom: 40px;
+  overflow: hidden;
 }
 
 .edit-title {
