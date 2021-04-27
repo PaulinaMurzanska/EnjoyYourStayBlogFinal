@@ -25,7 +25,7 @@
         </div>
 
         <span>
-            Autor: {{ post.author.first_name }} {{ post.author.last_name }}
+            Autor: {{ user }}
         </span>
         <div class="btn">
             <a href="{% url 'details' post.pk %}">Czytaj Więcej</a>
