@@ -127,4 +127,3 @@ def LikeView(request, pk):
     post.likes.add(request.user)
     return HttpResponseRedirect(reverse("details", args=[str(pk)]))
 
-    
