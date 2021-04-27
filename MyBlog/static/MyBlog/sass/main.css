@@ -731,12 +731,27 @@ body footer .container .site-footer small {
 .container .post-content {
   padding: 30px;
 }
+@media (max-width: 700px) {
+  .container .post-content {
+    padding: 10px;
+  }
+}
 .container .post-content .container-details {
   width: 100%;
   margin: 0 auto;
   text-align: justify;
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .post-content .container-details a {
+  margin: 0 auto;
   overflow: hidden;
+}
+.container .post-content .container-details a img {
+  max-width: 100%;
+  object-fit: scale-down;
 }
 
 .edit-title {
